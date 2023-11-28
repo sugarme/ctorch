@@ -30,7 +30,8 @@ endif()
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-# target_compile_features(ctorch PRIVATE cxx_standard_17)
+
+add_compile_options("$<$<COMPILE_LANGUAGE:CXX>:-Ofast;-g;-std=c++17;-Wall; -D_GLIBCXX_USE_CXX11_ABI=0>; -DCMAKE_EXPORT_COMPILE_COMMANDS=true")
 
 set(TORCH_ROOT_DIR /usr/local/lib/libtorch)
 set(CUDA_ROOT_DIR /usr/local/cuda)
