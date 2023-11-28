@@ -1,0 +1,18 @@
+# zig build artifacts
+zig-cache/
+zig-out/
+/release/
+/debug/
+/build/
+/build-*/
+/docgen_tmp/
+
+# libctorch build artifact
+ctorch/build/
+ctorch/cmake-output/
+
+# ocaml gen 
+_build/
+
+*.bak*
+*.swp
