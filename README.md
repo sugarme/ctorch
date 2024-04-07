@@ -34,7 +34,7 @@ Add it to your `build.zig.zon`.
 
 ```yaml
     .ctorch = .{
-        .url = "https://github.com/sugarme/ctorch/archive/9308a64224f32184500d8a8178be0066443d65bc.tar.gz",
+        .url = "https://github.com/sugarme/ctorch/archive/a5a388a32d230a89a4a64d071657b6dd5e4e3bec.tar.gz",
         .hash = "122084941d6e06491a85e1356c7cca24a078103d34155e34a10a16a53f420d6bc399",
     },
 ```
