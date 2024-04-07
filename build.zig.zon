@@ -1,0 +1,15 @@
+.{
+    .name = "ctorch",
+    .version = "0.0.1",
+    .zig_version = "0.12.0-dev.2711+f995c1b08",
+    .paths = .{
+        "csrc/",
+        "include/",
+        "build.zig",
+        "build.zig.zon",
+        "README.md",
+    },
+    .dependencies = .{
+        // NO dependencies
+    },
+}

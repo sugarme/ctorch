@@ -1,6 +1,8 @@
 # libctorch build artifact
 build/
 cmake-output/
+zig-out/
+zig-cache/
 
 *.bak*
 *.swp
