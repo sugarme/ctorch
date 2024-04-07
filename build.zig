@@ -14,7 +14,7 @@ pub fn build(b: *std.Build) void {
 
     lib.addCSourceFiles(.{
         .files = &[_][]const u8{
-            "csrc/torch_api.cpp",
+            "src/torch_api.cpp",
         },
         .flags = &.{
             "-std=c++17",
